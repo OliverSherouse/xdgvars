@@ -1,0 +1,2 @@
+# xdgvars
+Environment Variables to 
