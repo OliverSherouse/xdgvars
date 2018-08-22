@@ -28,3 +28,6 @@ export NETHACKOPTIONS=$XDG_CONFIG/nethackrc
 
 # Weechat
 export WEECHAT_HOME=$XDGV_CONFIG/weechat
+
+# pass (also know as password-store)
+export PASSWORD_STORE_DIR=$XDGV_DATA/pass
