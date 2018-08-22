@@ -25,3 +25,6 @@ export JUPYTER_XDG_CONFIG_DIR=$XDG_CONFIG/jupyter
 
 # Nethack
 export NETHACKOPTIONS=$XDG_CONFIG/nethackrc
+
+# Weechat
+export WEECHAT_HOME=$XDGV_CONFIG/weechat
