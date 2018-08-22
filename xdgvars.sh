@@ -12,7 +12,7 @@ fi
 
 
 # Android SDK
-export ANDROID_HOME=$XDG_DATA_HOME/android
+export ANDROID_HOME=$XDGV_DATA/android
 
 # Elinks
 export ELINKS_CONFDIR=$XDGV_CONFIG/elinks
