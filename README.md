@@ -8,11 +8,11 @@ There are too many programs that stick a `.foo` folder in your home directory. I
 
 ## Installation and use
 
-To install, clone or download this repository and source the file in either your \~/.profile or your \~/.bashrc with a snippet like this:
+To install, clone or download this repository to your `$XDG_CONFIG_HOME` folder and source `xdgvars.sh` in either your `~/.profile` or your `~/.bashrc` with a snippet like this:
 
 ``` {.bash}
 
-if [ -f $XDG_DATA_HOME/xdgvars/xdgvars.sh ]; then
-    source $XDG_DATA_HOME/xdgvars/xdgvars.sh 
+if [ -f $XDG_CONFIG_HOME/xdgvars/xdgvars.sh ]; then
+    source $XDG_CONFIG_HOME/xdgvars/xdgvars.sh 
 fi
 ```
