@@ -34,3 +34,6 @@ export PASSWORD_STORE_DIR=$XDGV_DATA/pass
 
 # GNU Privacy Guard (gnupg)
 export GNUPGHOME=$XDGV_CONFIG/gnupg
+
+# .inputrc
+export INPUTRC=$XDGV_CONFIG/inputrc
