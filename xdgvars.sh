@@ -15,13 +15,13 @@ fi
 export ANDROID_HOME=$XDG_DATA_HOME/android
 
 # Elinks
-export ELINKS_CONFDIR=$XDG_CONFIG/elinks
+export ELINKS_CONFDIR=$XDGV_CONFIG/elinks
 
 # IPython
-export IPYTHONDIR=$XDG_CONFIG/ipython
+export IPYTHONDIR=$XDGV_CONFIG/ipython
 
 # Jupyter
-export JUPYTER_XDG_CONFIG_DIR=$XDG_CONFIG/jupyter
+export JUPYTER_XDG_CONFIG_DIR=$XDGV_CONFIG/jupyter
 
 # Nethack
-export NETHACKOPTIONS=$XDG_CONFIG/nethackrc
+export NETHACKOPTIONS=$XDGV_CONFIG/nethackrc
