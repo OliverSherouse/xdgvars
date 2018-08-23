@@ -1,14 +1,5 @@
-if [ -z ${XDG_CONFIG_HOME+x} ]; then
-    XDGV_CONFIG=$HOME/.config
-else
-    XDGV_CONFIG=$XDG_CONFIG_HOME
-fi
-
-if [ -z ${XDG_DATA_HOME+x} ]; then
-    XDGV_DATA=$HOME/.config
-else
-    XDGV_DATA=$XDG_DATA_HOME
-fi
+XDGV_CONFIG="${XDG_CONFIG_HOME:-$HOME/.config}"
+XDGV_DATA="${XDG_DATA_HOME:-$HOME/.config}"
 
 
 # Android SDK
