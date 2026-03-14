@@ -22,12 +22,6 @@ export IPYTHONDIR
 : "${JUPYTER_XDG_CONFIG_DIR:="$XDGV_CONFIG/jupyter"}"
 export JUPYTER_XDG_CONFIG_DIR
 
-# Pi (pi-coding-agent)
-# Pi uses a single "agent dir" for config, auth, sessions, etc.
-# This moves it out of ~/.pi/agent.
-: "${PI_CODING_AGENT_DIR:="$XDGV_CONFIG/pi"}"
-export PI_CODING_AGENT_DIR
-
 # Nethack
 : "${NETHACKOPTIONS:="$XDGV_CONFIG/nethackrc"}"
 export NETHACKOPTIONS
